@@ -3,8 +3,8 @@
 -e git+https://github.com/lexibank/bantubvd.git@v2.0.1#egg=lexibank_bantubvd
 -e git+https://github.com/lexibank/beidasinitic.git@v3.0.1#egg=lexibank_beidasinitic
 -e git+https://github.com/lexibank/bowernpny.git@v2.0#egg=lexibank_bowernpny
--e git+https://github.com/lexibank/hubercolumbian.git@v2.0#egg=lexibank_hubercolumbian
--e git+https://github.com/lexibank/ids.git@v2.0#egg=lexibank_ids
+-e git+https://github.com/lexibank/hubercolumbian.git@v2.0.1#egg=lexibank_hubercolumbian
+-e git+https://github.com/lexibank/ids.git@v2.0.1#egg=lexibank_ids
 -e git+https://github.com/lexibank/kraftchadic.git@v2.0#egg=lexibank_kraftchadic
 -e git+https://github.com/lexibank/northeuralex.git@v2.0#egg=lexibank_northeuralex
 -e git+https://github.com/lexibank/robinsonap.git@v2.0#egg=lexibank_robinsonap
@@ -28,4 +28,3 @@
 -e git+https://github.com/lexibank/yanglalo.git@v1.0#egg=lexibank_yanglalo
 -e git+https://github.com/lexibank/sohartmannchin.git@v1.0#egg=lexibank_sohartmannchin
 -e git+https://github.com/lessersunda/lexirumah-data.git@v2.2.0#egg=pylexirumah
-
