@@ -1,5 +1,5 @@
 -e git+https://github.com/lexibank/logos.git@v2.0.3#egg=lexibank_logos
--e git+https://github.com/lexibank/allenbai.git@v2.0.1Cite the lexibank dataset as#egg=lexibank_allenbai
+-e git+https://github.com/lexibank/allenbai.git@v2.0.1#egg=lexibank_allenbai
 -e git+https://github.com/lexibank/bantubvd.git@v2.0#egg=lexibank_bantubvd
 -e git+https://github.com/lexibank/beidasinitic.git@v3.0#egg=lexibank_beidasinitic
 -e git+https://github.com/lexibank/bowernpny.git@v2.0#egg=lexibank_bowernpny
