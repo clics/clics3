@@ -14,7 +14,7 @@
 -e git+https://github.com/lexibank/tryonsolomon.git@v2.0.1#egg=lexibank_tryonsolomon
 -e git+https://github.com/lexibank/wold.git@v2.0.1#egg=lexibank_wold
 -e git+https://github.com/lexibank/zgraggenmadang.git@v2.0.1#egg=lexibank_zgraggenmadang
--e git+https://github.com/lexibank/abrahammonpa.git@v1.0#egg=lexibank_abrahammonpa
+-e git+https://github.com/lexibank/abrahammonpa.git@v1.0.1#egg=lexibank_abrahammonpa
 -e git+https://github.com/lexibank/bodtkhobwa.git@v1.0#egg=lexibank_bodtkhobwa
 -e git+https://github.com/lexibank/castrosui.git@v1.0#egg=lexibank_castrosui
 -e git+https://github.com/lexibank/chenhmongmien.git@v1.0#egg=lexibank_chenhmongmien
