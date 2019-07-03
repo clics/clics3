@@ -9,7 +9,7 @@
 -e git+https://github.com/lexibank/northeuralex.git@v2.0.2#egg=lexibank_northeuralex
 -e git+https://github.com/lexibank/robinsonap.git@v2.0.1#egg=lexibank_robinsonap
 -e git+https://github.com/lexibank/satterthwaitetb.git@v2.0.1#egg=lexibank_satterthwaitetb
--e git+https://github.com/lexibank/suntb.git@v2.0#egg=lexibank_suntb
+-e git+https://github.com/lexibank/suntb.git@v2.1#egg=lexibank_suntb
 -e git+https://github.com/lexibank/tls.git@v2.0#egg=lexibank_tls
 -e git+https://github.com/lexibank/tryonsolomon.git@v2.0#egg=lexibank_tryonsolomon
 -e git+https://github.com/lexibank/wold.git@v2.0#egg=lexibank_wold
