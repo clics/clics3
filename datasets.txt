@@ -11,7 +11,7 @@
 -e git+https://github.com/lexibank/satterthwaitetb.git@v2.0.1#egg=lexibank_satterthwaitetb
 -e git+https://github.com/lexibank/suntb.git@v2.1#egg=lexibank_suntb
 -e git+https://github.com/lexibank/tls.git@v2.0.1#egg=lexibank_tls
--e git+https://github.com/lexibank/tryonsolomon.git@v2.0#egg=lexibank_tryonsolomon
+-e git+https://github.com/lexibank/tryonsolomon.git@v2.0.1#egg=lexibank_tryonsolomon
 -e git+https://github.com/lexibank/wold.git@v2.0#egg=lexibank_wold
 -e git+https://github.com/lexibank/zgraggenmadang.git@v2.0#egg=lexibank_zgraggenmadang
 -e git+https://github.com/lexibank/abrahammonpa.git@v1.0#egg=lexibank_abrahammonpa
