@@ -20,7 +20,7 @@
 -e git+https://github.com/lexibank/chenhmongmien.git@v1.1#egg=lexibank_chenhmongmien
 -e git+https://github.com/lexibank/diacl.git@v1.1#egg=lexibank_diacl
 -e git+https://github.com/lexibank/halenepal.git@v1.0.1#egg=lexibank_halenepal
--e git+https://github.com/lingpy/language-island-paper.git@v2.0.1#egg=lexibank_hantganbangime
+-e git+https://github.com/lingpy/language-island-paper.git@v2.0.2#egg=lexibank_hantganbangime
 -e git+https://github.com/lexibank/marrisonnaga.git@v1.0#egg=lexibank_marrisonnaga
 -e git+https://github.com/lexibank/mitterhoferbena.git@v1.0#egg=lexibank_mitterhoferbena
 -e git+https://github.com/lexibank/naganorgyalrongic.git@v1.1#egg=lexibank_naganorgyalrongic
