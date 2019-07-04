@@ -26,5 +26,5 @@
 -e git+https://github.com/lexibank/naganorgyalrongic.git@v1.1.1#egg=lexibank_naganorgyalrongic
 -e git+https://github.com/lexibank/transnewguineaorg.git@v1.0.1#egg=lexibank_transnewguineaorg
 -e git+https://github.com/lexibank/yanglalo.git@v1.0.1#egg=lexibank_yanglalo
--e git+https://github.com/lexibank/sohartmannchin.git@v1.0#egg=lexibank_sohartmannchin
+-e git+https://github.com/lexibank/sohartmannchin.git@v1.0.1#egg=lexibank_sohartmannchin
 -e git+https://github.com/lessersunda/lexirumah-data.git@v2.2.0#egg=pylexirumah
