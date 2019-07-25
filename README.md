@@ -28,5 +28,6 @@ This repository contains
 5. Create the colexification network (encoded as GML graph):
    ```bash
    clics -t 3 -f families colexification
+   clics -t 3 cluster infomap
    ```
 
