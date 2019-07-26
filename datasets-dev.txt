@@ -28,3 +28,4 @@
 -e git+https://github.com/lexibank/yanglalo.git#egg=lexibank_yanglalo
 -e git+https://github.com/lexibank/sohartmannchin.git#egg=lexibank_sohartmannchin
 -e git+https://github.com/lessersunda/lexirumah-data.git@v2.2.3#egg=pylexirumah
+
