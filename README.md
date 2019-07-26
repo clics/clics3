@@ -10,9 +10,9 @@ This repository contains
 
 ## Creating the CLICS database
 
-1. Install the Python package `pyclics` in versin 2.0:
+1. Install the Python package `pyclics`:
    ```bash
-   pip install "pyclics==2.0"
+   pip install "pyclics>=2.0"
    ```
 2. Download and install the Lexibank datasets from which to aggregate colexifications:
    ```bash
@@ -28,5 +28,7 @@ This repository contains
 5. Create the colexification network (encoded as GML graph):
    ```bash
    clics -t 3 -f families colexification
+   clics -t 3 cluster infomap
+   clics -t 3 -g infomap -f families graph-stats
    ```
 
