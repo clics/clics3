@@ -11,24 +11,24 @@ This repository contains
 ## Creating the CLICS database
 
 1. Install the Python package `pyclics`:
-   ```bash
-   pip install "pyclics>=2.0"
+   ```shell script
+   pip install "pyclics>=3.0"
    ```
 2. Download and install the Lexibank datasets from which to aggregate colexifications:
-   ```bash
+   ```shell script
    pip install -r datasets.txt
    ```
 3. Download data for the reference catalogs Glottolog and Concepticon:
-   get concepticon-data and glottolog from zenodo!
-
+   ```shell script
+   cldfbench catconfig
+   ```
 4. Create the SQLite database:
-   ```bash
-   clics load path/to/concepticon-data path/to/glottolog
+   ```shell script
+   clics load --glottolog-version v4.0 --concepticon-version v2.2.0
    ```
 5. Create the colexification network (encoded as GML graph):
-   ```bash
+   ```shell script
    clics -t 3 -f families colexification
    clics -t 3 cluster infomap
    clics -t 3 -g infomap -f families graph-stats
    ```
-
