@@ -30,5 +30,5 @@ This repository contains
    ```shell script
    clics -t 3 -f families colexification
    clics -t 3 cluster infomap
-   clics -t 3 -g infomap -f families graph-stats
+   clics -t 3 -g infomap -f families graph_stats
    ```
