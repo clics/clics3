@@ -32,3 +32,7 @@ This repository contains
    clics -t 3 cluster infomap
    clics -t 3 -g infomap -f families graph_stats
    ```
+6. Explore the clusters:
+   ```shell script
+   clics runapp
+   ```
