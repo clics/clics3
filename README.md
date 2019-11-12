@@ -7,14 +7,16 @@ This repository contains
   [encoded in GeoJSON](languages.geojson)
 - instructions to compile the CLICS database (see below) and
 - the CLICS data:
-  - the (zipped) SQLite database, created running
+  - the (zipped) SQLite database created in step 4 below, zipped running
     ```shell script
     zip -9 clics3.sqlite.zip clics.sqlite
     ```
-  - the full, GML encoded network, created running
+  - the full, GML encoded network created in step 5 below, zipped running
     ```shell script
     zip -9 clics3-network.gml.zip graphs/network-3-families.gml
     ```
+- the exact set of [`pip` requirements](requirements.txt) used to create the artefacts
+  above.
 
 
 ## Creating the CLICS database
