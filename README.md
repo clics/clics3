@@ -109,7 +109,7 @@ This repository contains
 
 6. Run subgraph and infomap cluster algorithms:
    ```shell script
-   clics -t 3 -f families makeapp
+   clics --seed 42 -t 3 -f families makeapp
    ```
    The clustered networks will be written to GML graphs and exported in a way suitable 
    for exploring with the CLICS javascript app. We can get some summary statistics running
@@ -117,9 +117,9 @@ This repository contains
    clics -t 3 -f families --graphname infomap graph_stats
    -----------  ----
    nodes        1647
-   edges        2958
-   components     93
-   communities   250
+   edges        2967
+   components     92
+   communities   249
    -----------  ----
    ```
 7. Finally, we can explore the clusters in the CLICS javascript app:
