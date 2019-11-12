@@ -4,14 +4,14 @@ This repository contains
 - specifications of the source data as [human readable table](datasets.md) and as
   [requirements file to install with `pip`](datasets.txt)
 - a map showing the geographic distribution of languages in the CLICS database,
-  [encoded in GeoJSON](languages.geojson)
+  [encoded in GeoJSON](languoids.geojson)
 - instructions to compile the CLICS database (see below) and
 - the CLICS data:
-  - the (zipped) SQLite database created in step 4 below, zipped running
+  - the [(zipped) SQLite database](clics3.sqlite.zip) created in step 4 below, zipped running
     ```shell script
     zip -9 clics3.sqlite.zip clics.sqlite
     ```
-  - the full, GML encoded network created in step 5 below, zipped running
+  - the [full, GML encoded network](clics3-network.gml.zip) created in step 5 below, zipped running
     ```shell script
     zip -9 clics3-network.gml.zip graphs/network-3-families.gml
     ```
@@ -21,7 +21,8 @@ This repository contains
 
 ## Creating the CLICS database
 
-1. Install the Python package `pyclics`:
+1. Install version 3 of the Python package `pyclics`
+   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3539050.svg)](https://doi.org/10.5281/zenodo.3539050):
    ```shell script
    pip install "pyclics>=3.0"
    ```
