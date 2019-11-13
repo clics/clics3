@@ -1,5 +1,11 @@
 # CLICS³
 
+The third installment of [CLICS](https://github.com/clics/clics) - the database of Cross-Linguistic Colexifications.
+
+Cite as
+
+> Rzymski, Tresoldi et al. 2019. The Database of Cross-Linguistic Colexifications, reproducible analysis of cross- linguistic polysemies. DOI: doi.org/10.17613/5awv-6w15
+
 This repository contains 
 - specifications of the source data as [human readable table](datasets.md) and as
   [requirements file to install with `pip`](datasets.txt)
