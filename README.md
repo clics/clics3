@@ -1,4 +1,4 @@
-# clics3
+# CLICS³
 
 This repository contains 
 - specifications of the source data as [human readable table](datasets.md) and as
@@ -17,6 +17,8 @@ This repository contains
     ```
 - the exact set of [`pip` requirements](requirements.txt) used to create the artefacts
   above.
+
+This data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 
 ## Creating the CLICS database
