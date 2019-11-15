@@ -91,28 +91,48 @@ This data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
    ```
    This will create the graph at `graphs/network-3-families.gml` and show the 20 most common colexifications:
 
-| ID A | Concept A | ID B | Concept B | Families | Languages | Words |               
-|-------:|:---------------------------|-------:|:-------------------------|-----------:|------------:|--------:|
-| 1803 | WOOD | 906 | TREE | 59 | 348 | 361 |
+| ID A | Concept A | ID B | Concept B | Families | Languages | Words |                                                                                                        
+|-------:|:-------------------------|-------:|:-------------------------------|-----------:|------------:|--------:|
+| 906 | TREE | 1803 | WOOD | 59 | 348 | 361 |
 | 1313 | MOON | 1370 | MONTH | 57 | 324 | 327 |
-| 1258 | FINGERNAIL | 72 | CLAW | 55 | 236 | 243 |
+| 72 | CLAW | 1258 | FINGERNAIL | 55 | 236 | 243 |
 | 1297 | LEG | 1301 | FOOT | 52 | 349 | 358 |
-| 3210 | KNIFE (FOR EATING) | 1352 | KNIFE | 51 | 268 | 282 |
+| 1352 | KNIFE | 3210 | KNIFE (FOR EATING) | 51 | 268 | 282 |
 | 2267 | SON-IN-LAW (OF MAN) | 2266 | SON-IN-LAW (OF WOMAN) | 49 | 261 | 280 |
 | 763 | SKIN | 1204 | BARK | 49 | 209 | 213 |
-| 1599 | WORD | 1307 | LANGUAGE | 49 | 148 | 149 |
-| 1673 | ARM | 1277 | HAND | 48 | 294 | 300 |
-| 1608 | LISTEN | 1408 | HEAR | 48 | 107 | 109 |
+| 1307 | LANGUAGE | 1599 | WORD | 49 | 148 | 149 |
+| 1277 | HAND | 1673 | ARM | 48 | 294 | 300 |
+| 1408 | HEAR | 1608 | LISTEN | 48 | 107 | 109 |
 | 634 | MEAT | 2259 | FLESH | 47 | 252 | 262 |
-| 2264 | DAUGHTER-IN-LAW (OF WOMAN) | 2265 | DAUGHTER-IN-LAW (OF MAN) | 47 | 234 | 256 |
+| 2265 | DAUGHTER-IN-LAW (OF MAN) | 2264 | DAUGHTER-IN-LAW (OF WOMAN) | 47 | 234 | 256 |
 | 763 | SKIN | 629 | LEATHER | 46 | 236 | 258 |
 | 837 | BLUE | 1425 | GREEN | 46 | 195 | 204 |
-| 2263 | MALE (OF ANIMAL) | 2261 | MALE (OF PERSON) | 45 | 145 | 163 |
-| 962 | WOMAN | 1199 | WIFE | 44 | 289 | 301 |
-| 481 | DISH | 480 | PLATE | 44 | 155 | 170 |
+| 2261 | MALE (OF PERSON) | 2263 | MALE (OF ANIMAL) | 45 | 145 | 163 |
+| 1199 | WIFE | 962 | WOMAN | 44 | 289 | 301 |
+| 480 | PLATE | 481 | DISH | 44 | 155 | 170 |
 | 2260 | FEMALE (OF PERSON) | 2262 | FEMALE (OF ANIMAL) | 44 | 146 | 154 |
 | 1228 | EARTH (SOIL) | 626 | LAND | 43 | 159 | 167 |
-| 2252 | PATH | 667 | ROAD | 43 | 133 | 153 |
+| 667 | ROAD | 2252 | PATH | 43 | 133 | 153 |
+| 705 | GO UP (ASCEND) | 1102 | CLIMB | 43 | 132 | 146 |
+| 683 | PERSON | 1554 | MAN | 41 | 199 | 205 |
+| 2255 | FATHER-IN-LAW (OF MAN) | 2254 | FATHER-IN-LAW (OF WOMAN) | 41 | 187 | 204 |
+| 133 | WEAVE | 3294 | BRAID (VERB) OR WEAVE (BASKET) | 41 | 122 | 133 |
+| 2261 | MALE (OF PERSON) | 1554 | MAN | 41 | 104 | 115 |
+| 1474 | SEA | 645 | OCEAN | 41 | 101 | 110 |
+| 215 | LIE DOWN | 1585 | SLEEP | 40 | 191 | 197 |
+| 1265 | HIGH | 711 | TALL | 40 | 168 | 182 |
+| 256 | FOOD | 1526 | MEAL | 40 | 124 | 136 |
+| 1732 | SKY | 1565 | HEAVEN | 40 | 117 | 120 |
+| 1443 | WALK | 695 | GO | 39 | 288 | 320 |
+| 2257 | MOTHER-IN-LAW (OF MAN) | 2256 | MOTHER-IN-LAW (OF WOMAN) | 39 | 181 | 203 |
+| 1618 | GRANDSON | 1619 | GRANDDAUGHTER | 39 | 133 | 151 |
+| 1203 | LONG | 711 | TALL | 39 | 113 | 121 |
+| 2260 | FEMALE (OF PERSON) | 962 | WOMAN | 39 | 109 | 119 |
+| 948 | WATER | 666 | RIVER | 38 | 197 | 200 |
+| 1229 | OLD | 406 | OLD MAN | 38 | 103 | 107 |
+| 531 | HOW MUCH | 3450 | HOW MANY PIECES | 37 | 184 | 203 |
+| 706 | DARK | 163 | BLACK | 37 | 95 | 97 |
+| 855 | SEIZE | 702 | CATCH | 36 | 150 | 161 |
 
 
 6. Run subgraph and infomap cluster algorithms:
