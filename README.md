@@ -29,6 +29,26 @@ This data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 
 ## Creating the CLICS database
 
+0. Analyses should ideally be carried within virtual environments, so that guarantee that the necessary
+   libraries don't interact with other pipelines. This is particularly true if you have multiple
+   Python versions installed in your system. Please confirm that you are running `clics3` in a
+   virtual environment if you run into any issue. There are many different solutions on how
+   to use virtual environments, with details depending on the system you use (for example, if you
+   are using Conda). A good overview is provided [here](https://realpython.com/python-virtual-environments-a-primer/)
+   but, for most systems, it should be enough to create an environment with
+   
+   ```shell script
+   python -m venv env
+   ```
+   
+   And activate it with
+   
+   ```shell script
+   source env/bin/activate
+   ```
+   
+   Once all the work had been carried, you can leave the virtual environment by closing your shell or
+   issueing the `deactivate` command.
 1. Install version 3 of the Python package `pyclics`
    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3539050.svg)](https://doi.org/10.5281/zenodo.3539050):
    ```shell script
