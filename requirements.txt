@@ -39,7 +39,7 @@ packaging==19.2
 pathlib2==2.3.5
 pluggy==0.13.0
 purl==1.5
-py==1.8.0
+py==1.10.0
 pybtex==0.22.2
 pycdstar==1.0.1
 pycldf==1.8.2
