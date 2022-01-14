@@ -56,7 +56,7 @@ This data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
    ```
 2. Download and install the Lexibank datasets from which to aggregate colexifications:
    ```shell script
-   curl -O https://github.com/clics/clics3/blob/master/datasets.txt
+   curl -O https://raw.githubusercontent.com/clics/clics3/master/datasets.txt
    pip install -r datasets.txt
    ```
 3. Download data for the reference catalogs Glottolog and Concepticon:
