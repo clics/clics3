@@ -171,6 +171,8 @@ This data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
    communities   249
    -----------  ----
    ```
+   Note that clustering may be non-deterministic, i.e. you may compute slightly different clusters
+   than the ones distributed in the GML files in this repository.
 7. Finally, we can explore the clusters in the CLICS javascript app:
    ```shell script
    clics runapp
